@@ -6,7 +6,7 @@ import styles from './style'
 
 export default function App(){
 
-const[state,setState]=useState('selecionar');
+const[state,setState]=useState('firstState');
 
 //dd/mm/yyyy
 var date = new Date();
@@ -93,7 +93,7 @@ function formatNumber(number){
 }
 
 
-if(state == 'selecionar'){
+if(state == 'firstState'){
   return (
     <View style={[styles.view,{backgroundColor:`${ColorBackground}`}]}>
       <StatusBar hidden/>
@@ -107,7 +107,7 @@ if(state == 'selecionar'){
       </Text>   
   </View>
   );
-}else if(state == 'iniciar'){
+}else if(state == 'secondState'){
   return (
     <View style={[styles.view,{backgroundColor:`${ColorBackground}`}]}>
       <StatusBar hidden/>
