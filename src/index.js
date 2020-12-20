@@ -98,7 +98,7 @@ if(state == 'firstState'){
     <View style={[styles.view,{backgroundColor:`${ColorBackground}`}]}>
       <StatusBar hidden/>
       <Text style={[styles.title,{color:`${ColorText}`}]}>Go 4all</Text>
-      <TouchableOpacity onPress={()=>setState('iniciar')} style={styles.button}>
+      <TouchableOpacity onPress={()=>setState('secondState')} style={styles.button}>
          <Text style={styles.textButton}>Change Color</Text>
       </TouchableOpacity>
       <Text style={[styles.date,{color:`${ColorText}`}]}>
@@ -112,7 +112,7 @@ if(state == 'firstState'){
     <View style={[styles.view,{backgroundColor:`${ColorBackground}`}]}>
       <StatusBar hidden/>
       <Text style={[styles.title,{color:`${ColorText}`}]}>Go 4all</Text>
-      <TouchableOpacity onPress={()=>setState('selecionar')} style={styles.button}>
+      <TouchableOpacity onPress={()=>setState('firstState')} style={styles.button}>
          <Text style={styles.textButton}>Change Color</Text>
       </TouchableOpacity>
       <Text style={[styles.date,{color:`${ColorText}`}]}>
